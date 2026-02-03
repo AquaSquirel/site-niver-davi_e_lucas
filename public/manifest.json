@@ -1,0 +1,15 @@
+{
+  "short_name": "Davi&Lucas",
+  "name": "Super Davi & Lucas Bros - Level 9",
+  "icons": [
+    {
+      "src": "supermario.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E52521",
+  "background_color": "#6B8CFF"
+}
