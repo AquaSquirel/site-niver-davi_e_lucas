@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Star, ChevronDown, Coins } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 // Componente de Nuvem "Fofinha" (Estilo Mario clássico)
 const MarioCloud = ({ className }: { className?: string }) => (
