@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-game-sky font-sans text-gray-900 overflow-x-hidden;
+  }
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #E52521; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b31d1a; 
+}
