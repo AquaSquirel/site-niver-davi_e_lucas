@@ -26,8 +26,19 @@ export const Footer = () => {
           CONFIRMAR
         </a>
 
-        <div className="mt-12 text-xs text-gray-600 font-sans">
-          © 2026 Super Davi & Lucas Bros. <br/> Todos os direitos reservados.
+        <div className="mt-12 text-[10px] text-gray-500 font-pixel uppercase tracking-widest">
+          © 2026 Super Davi & Lucas Bros. <br/>
+          <span className="block mt-4 opacity-70">
+            Desenvolvido por{' '}
+            <a 
+              href="https://mateuss.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-yellow-500 hover:text-white transition-colors"
+            >
+              Mateuss
+            </a>
+          </span>
         </div>
       </div>
 
